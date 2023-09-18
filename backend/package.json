@@ -1,0 +1,25 @@
+{
+  "name": "todoformobile",
+  "version": "1.0.0",
+  "description": "A Backend app for React Native",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.1",
+    "helmet": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.3"
+  },
+  "author": "Mubin Khalife",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
